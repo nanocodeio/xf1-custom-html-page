@@ -26,168 +26,10 @@
   <templates>
     <template title="acomhomepage" version_id="1000070" version_string="1.0.0"><![CDATA[<div id="wrapper">
     <div class="container">
-        <img src="https://www.apantic.com/assets/logo.svg" onerror="this.src='logo.png'" alt="Apantic" width="550"
-             border="0">
-
-        <h2 class="subtitle">
-            Introducing Apantic<br>
-            We're software artisans. It's our passion.
-        </h2>
-        <h3 class="subtitle divider">We make awesome stuff, just for you.</h3>
-
-        <div class="action-buttons">
-            <a href="products" class="btn btn-primary btn-lg">See Products</a>
-            <a href="community" class="btn btn-secondary btn-lg">Visit the Forums</a>
-        </div>
-
-        <div id="footer">
-            <p class="copyright">Copyright &copy; 2015 Apantic. All rights reserved.</p>
-        </div>
+ <p>Page content goes here</p>
     </div>
 </div>]]></template>
     <template title="acomhomepage.css" version_id="1000070" version_string="1.0.0"><![CDATA[body {
-    background: #e0e0e0 url(./img/bg.png);
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-    color: #333;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-h3 {
-    font-weight: 400;
-}
-
-h4 {
-    font-weight: 400;
-    font-size: 20px;
-}
-
-p {
-    margin-bottom: 20px;
-    font-size: 16px;
-}
-
-a {
-    color: #08C;
-    word-wrap: break-word;
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
-a:hover,
-a:focus {
-    color: #8e44ad;
-    text-decoration: none;
-    outline: 0;
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
-#wrapper {
-    text-align: center;
-    min-height: 100%;
-    padding: 40px 0;
-    width: 100%;
-}
-
-#wrapper h1 {
-    margin-top: 60px;
-    margin-bottom: 40px;
-    color: #333;
-    font-size: 45px;
-    font-weight: 900;
-    letter-spacing: -1px;
-}
-
-.subtitle {
-    color: #333;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 45px;
-}
-
-.divider {
-    margin-bottom: 120px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 1em 2.2em;
-    margin-bottom: 0;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 2px solid #FFF;
-    border-radius: 0;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #2980b9;
-    border-color: transparent;
-}
-
-.btn-secondary {
-    color: #333;
-    background-color: transparent;
-    border: #FFF 2px solid;
-}
-
-.btn-primary:hover {
-    border-color: transparent;
-}
-
-.btn-secondary:hover {
-    color: #2980b9;
-}
-
-p.copyright {
-    margin-top: 50px;
-    color: #333;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12px;
-}
-
-#footer {
-    width:100%;
-    height:100px;
-    position:absolute;
-    bottom:0;
-    left:0;
 }]]></template>
     <template title="acomhomepage_layout" version_id="1000070" version_string="1.0.0"><![CDATA[<!DOCTYPE html>
 <html id="XenForo" lang="{$visitorLanguage.language_code}" class="Public NoJs LoggedOut NoSidebar {xen:if $isResponsive, Responsive, NoResponsive}" xmlns:fb="http://www.facebook.com/2008/fbml">
@@ -199,8 +41,9 @@ p.copyright {
 	</xen:if>
 	
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,700,300">
-    <link rel="stylesheet" type="text/css "href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://www.apantic.com/style.css">
+    	<link rel="stylesheet" type="text/css "href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!--XenForo_Require:CSS-->
+	<xen:require css="acomhomepage.css /"
 	
 	<title><xen:if is="{$title}">{xen:raw $title} | {$xenOptions.boardTitle}<xen:else />{$xenOptions.boardTitle}</xen:if></title>
 	
