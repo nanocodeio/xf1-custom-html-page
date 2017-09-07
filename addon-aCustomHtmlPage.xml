@@ -43,7 +43,7 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,700,300">
     	<link rel="stylesheet" type="text/css "href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!--XenForo_Require:CSS-->
-	<xen:require css="acomhomepage.css /"
+	<xen:require css="acomhomepage.css" />
 	
 	<title><xen:if is="{$title}">{xen:raw $title} | {$xenOptions.boardTitle}<xen:else />{$xenOptions.boardTitle}</xen:if></title>
 	
