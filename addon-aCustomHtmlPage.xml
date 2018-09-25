@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon addon_id="aCustomHtmlPage" title="[A] Custom HTML Page" version_string="1.0.0" version_id="1000071" url="https://www.apantic.com" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+<addon addon_id="aCustomHtmlPage" title="[n] Custom HTML Page" version_string="1.0.0" version_id="1000071" url="https://github.com/nanocodeio/custom-html-page" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
   <admin_navigation/>
   <admin_permissions/>
   <admin_style_properties/>
