@@ -2,8 +2,6 @@
 
 An add-on for XenForo to give you 1 custom HTML page to use. It is used at https://www.apantic.com for a homepage.
 
-Copyright (c) 2016, Apantic Limited
-
 To install, upload the files contained in /upload and install using the .xml file.
 
 To set up the page, use the template `acomhomepage_layout` to set up the html head and layout. Be aware of certain variables in there; do not remove variable configurations (such as `$title`, `$contents`). Use the templates `acomhomepage` and `acomhomepage.css` to setup the page body.
@@ -19,8 +17,10 @@ If you want to use this for another page (other than a homepage), you will have 
 
 If you are using a newer version of XenForo (XF 1.2+), you should be able to use route filters for this purpose. See: https://xenforo.com/help/route-filters/
 
+Also see: https://xenforo.com/community/resources/n-custom-html-page-for-homepage.5332/
+
 ## Legal Stuff
-   Copyright 2016, Apantic Limited
+   Copyright Apantic Limited
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
